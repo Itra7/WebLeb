@@ -15,8 +15,7 @@ def get():
 
     name = input("[*] input name of file to save the web file\n")
     open(name, 'wb').write(r.content)
-
-
+    sys.exit()
 
  
 
